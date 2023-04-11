@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>BAGS Productos</title>
+</head>
+<body>
+  <div class="container">
+        <header class="row bg-primary bg-opacity-75">
+            <div class="col-lg-1 col-12">
+                <a href="../index.html"> <img src="../favicon.png" height="60" width="60" alt="Logo"></a>
+            </div> 
+            <div class="col-lg-11 col-12">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                                        <!-- intente de mil formas todo el nav al final con justify-content-end y no hubo caso -->
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-light fs-5 " aria-current="page" href="../index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light fs-5" href="nosotros.html">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light fs-5" href="loultimo.html">Último</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle text-light fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                                        <!-- dirigi hacia las Subcategorias mediante ID. No es la idea original pero no encontre otro metodo mejor aun -->
+                                    <ul class="dropdown-menu fw-light">
+                                        <li><a class="dropdown-item fst-italic fs-5" href="#bolso">Bolsos</a></li>
+                                        <li><a class="dropdown-item fst-italic fs-5" href="#cartera">Carteras</a></li>
+                                        <li><a class="dropdown-item fst-italic fs-5" href="#riñonera">Riñoneras</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-light fs-5" href="contacto.html">Contacto</a>
+                                </li>
+                            </ul>    
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header> 
+        <main class="row">
+            <div class="col-md-12 col-12 p-3 d-flex justify-content-start"> 
+                <h3>Categorías</h3>
+                <ul class="align">
+                    <li>BOLSOS</li>
+                    <li>CARTERAS</li>
+                    <li>RIÑONERAS</li>
+                </ul>    
+            </div>
+            <div id="bolso" class="col-md-12 col-12 d-flex justify-content-around">
+                <img src="../img/pexels-mart-production-8801089.jpg" height="500" width="350" alt="bolso mujer">
+                <img src="../img/pexels-cottonbro-studio-10669657.jpg" height="500" width="350" alt="bolso mujer">
+            </div>
+            <div id="cartera" class="col-md-12 col-12 mt-5 d-flex justify-content-around">   
+                <img src="../img/pexels-esra15045211.jpg" height="500" width="350" alt="bolso mujer">
+                <img src="../img/pexels-karolina-grabowska-5706269.jpg" height="500" width="350" alt="bolso mujer">
+            </div>    
+            <div id="riñonera" class="col-md-12 col-12 mt-5 d-flex justify-content-around">    
+                <img src="../img/pexels-karolina-grabowska-5717985.jpg" height="500" width="350" alt="bolso mujer">
+                <img src="../img/pexels-lisa-fotios-1476055.jpg" height="500" width="350" alt="bolso mujer">
+            </div>
+        </main>
+        <footer class="row bg-primary bg-opacity-75">
+            <div class="d-flex justify-content-end">
+                <div class="col-lg-2 col-12 ">
+                    <img src="../img/pngegg-2.png" height="60" width="150" alt="redes">
+                </div>
+                <div class="col-lg-9 col-12 text-light">
+                    <h3>Seguinos en nuestras redes</h3>
+                    <p> Todos los derechos reservados.</p>
+                </div>
+                <div class="col-lg-1 col-12">
+                    <img src="../favicon.png" height="60" width="60" alt="Logo">
+                </div>
+            </div>    
+        </footer>
+        <!-- link JS Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+/* reset general */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{list-style-type: none;display:flex;}
+form{display:flex;flex-direction: column;}
+li{padding:10px; text-decoration: none;color: tomato;}
+a{text-decoration: none; color:rgb(206, 73, 49);transition:1s all;}
+nav{justify-content: end;}
+img{margin: .5em; justify-content: space-between;}
+
+.align{display: block;}
